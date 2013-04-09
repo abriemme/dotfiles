@@ -1,0 +1,22 @@
+#
+# ~/.gitignore
+#
+
+#Emacs
+*~
+\#*\#
+.elc
+auto-save-list
+tramp
+.\#*
+
+# SublimeText project files
+*.sublime-workspace
+
+#svn
+.svn/
+
+#NodeJS
+logs
+npm-debug.log
+node_modules
