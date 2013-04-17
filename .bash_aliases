@@ -34,7 +34,6 @@ alias lr='ls -R'
 #show hidden files only
 alias l.='ls -d .* '
 
-
 #Clear the terminal of it's output
 alias clear='printf "\ec"'
 alias c='clear'
@@ -59,3 +58,6 @@ alias clr='clear;pwd;ls'
 
 #Ping google
 alias poogle='ping google.com'
+
+#curl shortcuts
+alias jurl='curl -i -H "Accept: application/json"'

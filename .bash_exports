@@ -15,3 +15,5 @@ export HISTCONTROL=ignoredups
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
 export LANG="fr_FR.UTF-8"
+
+export PATH=$PATH:/usr/lib/node_modules/:/opt/sublime_text
