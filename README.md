@@ -10,8 +10,10 @@ Run the following commands to reinstall all dotfiles back to the home directory:
     cd ~
     git clone git://github.com/abriemme/dotfiles.git dotfiles.git
     mv dotfiles.git/.git .dotfiles.git
+    shopt -s dotglob #enable dotglob 
     mv -i dotfiles.git/* .
     rmdir dotfiles.git
+    . ~/.bashrc
 
 ### Usage
 
