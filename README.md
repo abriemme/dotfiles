@@ -8,7 +8,7 @@ These are my dotfiles; pretty standard stuff. This setup of dotfiles is based on
 Run the following commands to reinstall all dotfiles back to the home directory:
 
     cd ~
-    git clone git://github.com/abriemme/dotfiles.git dotfiles.git
+    git clone git@github.com:abriemme/dotfiles.git dotfiles.git
     mv dotfiles.git/.git .dotfiles.git
     shopt -s dotglob #enable dotglob 
     mv -i dotfiles.git/* .
