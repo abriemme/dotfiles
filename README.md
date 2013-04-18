@@ -1,5 +1,5 @@
 Abriemme's dotfiles
-----------------------
+-------------------
 
 These are my dotfiles; pretty standard stuff. This setup of dotfiles is based on [Sila Swell's setup](http://silas.sewell.org/blog/2009/03/08/profile-management-with-git-and-github/)
 
