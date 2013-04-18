@@ -9,6 +9,7 @@
 [alias]
 	c = clone --recursive
 	ci = commit
+	co = checkout
 	ca = !git add -A && git commit -a
 	p = push
 	s = status
