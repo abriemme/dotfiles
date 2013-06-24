@@ -18,3 +18,5 @@ export LANG="fr_FR.UTF-8"
 
 export PATH=$PATH:/usr/lib/node_modules/:/opt/sublime_text
 export PATH=$PATH:/home/abriemme/Work/android-sdks/platform-tools #android adb
+
+export DJANGO_ENV=LOCAL

@@ -17,7 +17,7 @@ shopt -s nocaseglob
 # History 
 shopt -s histappend
 export HISTTIMEFORMAT='%Y-%m-%d %H:%M:%S - '
-PROMPT_COMMAND='history -n;history -a'
+
 HISTSIZE=100000
 HISTFILESIZE=100000
 
@@ -27,3 +27,5 @@ shopt -s cdspell
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
+
+[[ -s /home/abriemme/.nvm/nvm.sh ]] && . /home/abriemme/.nvm/nvm.sh # This loads NVM
