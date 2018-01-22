@@ -20,9 +20,9 @@ alias w='cd ~/Work'
 alias g='git'
 alias j="jobs"
 alias h='history'
+alias emacs='emacs -nw'
 alias ne='emacs'
 alias e='emacs'
-alias s='sublime_text'
 
 #ls aliases
 alias ls='ls -Ah --color=auto'
