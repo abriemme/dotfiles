@@ -13,6 +13,10 @@
 	ca = !git add -A && git commit -a
 	p = push
 	s = status
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
 [apply]
 	whitespace = fix
 
